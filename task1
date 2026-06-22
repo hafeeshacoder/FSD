@@ -3,10 +3,11 @@
 <head>
     <title>Nature</title>
 
+    <!-- Internal CSS -->
     <style>
         body {
             background-color: lightgreen;
-            font-family: Arial;
+            font-family: Arial, sans-serif;
         }
 
         h1 {
@@ -24,8 +25,34 @@
 
         .content {
             background-color: white;
-            padding: 15px;
+            padding: 20px;
             margin: 20px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
         }
     </style>
 </head>
@@ -35,6 +62,7 @@
     <h1>Nature</h1>
 
     <div class="content">
+
         <h2>Introduction</h2>
         <p>
             Nature is the most beautiful gift on Earth. It includes trees,
@@ -47,11 +75,76 @@
             It helps maintain balance in the environment.
         </p>
 
+        <h2>Benefits of Nature (Unordered List)</h2>
+        <ul>
+            <li>Fresh Air</li>
+            <li>Clean Water</li>
+            <li>Healthy Environment</li>
+            <li>Food Resources</li>
+        </ul>
+
+        <h2>Ways to Protect Nature (Ordered List)</h2>
+        <ol>
+            <li>Plant More Trees</li>
+            <li>Reduce Pollution</li>
+            <li>Save Water</li>
+            <li>Recycle Waste Materials</li>
+        </ol>
+
+        <h2>Nature Resources Table</h2>
+
+        <table>
+            <tr>
+                <th>Resource</th>
+                <th>Use</th>
+            </tr>
+            <tr>
+                <td>Trees</td>
+                <td>Provide Oxygen</td>
+            </tr>
+            <tr>
+                <td>Rivers</td>
+                <td>Provide Water</td>
+            </tr>
+            <tr>
+                <td>Soil</td>
+                <td>Grow Crops</td>
+            </tr>
+            <tr>
+                <td>Forests</td>
+                <td>Home for Animals</td>
+            </tr>
+        </table>
+
+        <h2>Inline CSS Example</h2>
+
+        <p style="color: blue; font-size: 20px;">
+            This paragraph uses inline CSS to change the text color and font size.
+        </p>
+
+        <h2>Internal CSS Example</h2>
+
+        <p>
+            The background color of this webpage is set to light green using
+            Internal CSS. The CSS code is written inside the style tag in the
+            head section of the HTML document.
+        </p>
+
         <h2>Conclusion</h2>
+
         <p>
             We should protect nature and keep our surroundings clean for a
             healthy future.
         </p>
+
+        <h2>Learn More</h2>
+
+        <p>
+            <a href="https://www.wikipedia.org" target="_blank">
+                Click Here to Learn More About Nature
+            </a>
+        </p>
+
     </div>
 
 </body>
