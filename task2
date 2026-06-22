@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Dream Travel Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>✈️ Dream Travel Destination</h1>
+
+    <h2>Maldives</h2>
+
+    <p>
+        The Maldives is one of the most beautiful tourist destinations in
+        the world. It is famous for its crystal-clear water, white sandy
+        beaches, and luxurious resorts.
+    </p>
+
+    <h2>Top Attractions</h2>
+
+    <table>
+        <tr>
+            <th>Attraction</th>
+            <th>Experience</th>
+        </tr>
+
+        <tr>
+            <td>Beach Villas</td>
+            <td>Luxury Stay</td>
+        </tr>
+
+        <tr>
+            <td>Scuba Diving</td>
+            <td>Explore Marine Life</td>
+        </tr>
+
+        <tr>
+            <td>Water Sports</td>
+            <td>Adventure Activities</td>
+        </tr>
+    </table>
+
+    <p>
+        Traveling to the Maldives offers a relaxing and unforgettable
+        experience for visitors from around the world.
+    </p>
+
+</div>
+```
+
+</body>
+</html>
