@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nature</title>
+
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: darkgreen;
+            text-align: center;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        p {
+            color: black;
+        }
+
+        .content {
+            background-color: white;
+            padding: 15px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Nature</h1>
+
+    <div class="content">
+        <h2>Introduction</h2>
+        <p>
+            Nature is the most beautiful gift on Earth. It includes trees,
+            rivers, mountains, animals, and plants.
+        </p>
+
+        <h2>Importance of Nature</h2>
+        <p>
+            Nature provides us with fresh air, water, food, and shelter.
+            It helps maintain balance in the environment.
+        </p>
+
+        <h2>Conclusion</h2>
+        <p>
+            We should protect nature and keep our surroundings clean for a
+            healthy future.
+        </p>
+    </div>
+
+</body>
+</html>
