@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Save Nature</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header{
+            background-color: green;
+            color: white;
+            padding: 20px;
+        }
+
+        .container{
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        img{
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkgreen;
+        }
+
+        footer{
+            background-color: green;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Save Nature, Save Future</h1>
+    </header>
+
+    <div class="container">
+
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800" alt="Nature">
+
+        <h2>Why Nature is Important?</h2>
+
+        <p>
+            Nature provides us with fresh air, clean water, food, and shelter.
+            Trees help reduce pollution and make our environment healthy.
+            Protecting nature is essential for the survival of future generations.
+        </p>
+
+        <p>
+            Every small action such as planting trees, saving water, and reducing plastic use
+            can make a big difference in protecting our planet.
+        </p>
+
+        <button onclick="showMessage()">Join the Green Mission</button>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Nature Awareness Campaign</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Thank you for supporting the Green Mission! 🌱");
+        }
+    </script>
+
+</body>
+</html>
